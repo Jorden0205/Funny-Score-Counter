@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>景竣尾牙星光大道 - 個人</title>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/animate-jquery.js" type="text/javascript"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="dist/css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div style="margin-top:5%;">
+	<img src="imgs/logo.png" class="list-inline">
+	<img src="imgs/single.png" class="list-inline">
+	<div class="row">
+         <div id="upperHalfBack" class="col-md-8">
+         		<img src="imgs/spacer.png" class="list-inline"/><img id="secondsUpLeftBack" src="Gold/0.png" class="list-inline"/><img id="secondsUpRightBack" src="Gold/0.png" class="list-inline"/>
+         </div>		
+         <div id="upperHalfBack" class="col-md-4">
+			<table class="table table-striped" id="scoreboard">
+			  <tbody>
+			  	<tr>
+					<th><h3>#</h3></th>
+					<th><h3>參賽者</h3></th>
+					<th><h3>分數</h3></th>
+				</tr>
+				<tr class="warning">
+					<td><h3>1</h3></td>
+					<td><h3>陳xx</h3></td>
+					<td id="score1"></td>
+				</tr>
+				<tr class="warning">
+					<td><h3>2</h3></td>
+					<td><h3>朱xx</h3></td>
+					<td id="score2"></td>
+				</tr>
+				<tr class="warning">
+					<td><h3>3</h3></td>
+					<td><h3>吳xx</h3></td>
+					<td id="score3"></td>
+				</tr>
+				<tr class="warning">
+					<td><h3>4</h3></td>
+					<td><h3>孫xx</h3></td>
+					<td id="score4"></h3></td>
+				</tr>
+				<tr class="warning">
+					<td><h3>5</h3></td>
+					<td><h3>陳xx</h3></td>
+					<td id="score5"></td>
+				</tr>
+				<tr class="warning">
+					<td><h3>6</h3></td>
+					<td><h3>林xx</h3></td>
+					<td id="score6"></td>
+				</tr>				
+			  
+			  </tbody>
+			</table>
+         </div>	
+	</div>
+	<div class="row">
+		<div class="col-md-11">
+		<input type="text" class="form-control" id="score" placeholder="放入數字並以逗號做間隔">
+		<input type="hidden" class="form-control" id="total">
+		</div>
+		<div class="col-md-1">
+		<button type="submit" class="btn btn-primary" onclick="calc()">GO!</button>
+		</div>
+	</div>
+
+	</div>
+</div>
+
+</body>
+
+</html>
